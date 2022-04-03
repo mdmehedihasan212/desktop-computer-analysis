@@ -7,7 +7,7 @@ const useReview = () => {
         fetch('review_data.json')
             .then(res => res.json())
             .then(data => setReviews(data))
-    }, [])
+    }, [reviews])
     return [reviews, setReviews];
 }
 export default useReview;

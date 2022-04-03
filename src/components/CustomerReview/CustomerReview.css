@@ -1,8 +1,7 @@
-.review-customer {
+.reviews-customer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 60px;
 }
 
 .customer-img img {
