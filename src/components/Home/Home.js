@@ -2,8 +2,12 @@ import React from 'react';
 import './Home.css';
 import image from '../../Assets/computer.webp';
 import { Link } from 'react-router-dom';
+import useReview from '../../hooks/useReview';
+import Review from '../Review/Review';
 
 const Home = () => {
+    const [reviews, setReviews] = useReview()
+
     return (
         <section>
             <div className="product-container">
@@ -20,11 +24,19 @@ const Home = () => {
                 </div>
             </div>
             <div className="review-container">
-                <div className="review-cart">
-                    <h1>Review Cart</h1>
+                <div className="">
+                    <h1 className='text-5xl text-center font-semibold'>Customer Review (6)</h1>
+                    <div className="p-10 grid sm:grid-cols- gap-6 md:grid-cols-3 gap-6">
+                        {
+                            reviews.map(review => <Review
+                                key={review._id}
+                                review={review}
+                            ></Review>)
+                        }
+                    </div>
                 </div>
                 <div className="review-btn">
-                    <h1>See all review</h1>
+                    <Link to={'/review'}>See all review</Link>
                 </div>
             </div>
         </section>

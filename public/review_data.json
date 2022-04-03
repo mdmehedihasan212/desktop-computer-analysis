@@ -9,35 +9,35 @@
     {
         "_id": "6249f8d6aebb1f5053b811a7",
         "picture": "https://i.ibb.co/PT2H4C7/1000-F-326985142-1aa-Kc-Ej-MQW6-ULp6o-I9-MYuv8l-N9f8s-Fmj.jpg",
-        "age": 4.2,
+        "rating": 4.2,
         "name": "Julie Sexton",
         "review": "Very easy to setup. No problems. Very fast start up."
     },
     {
         "_id": "6249f8d62c2aecb4abb0169f",
         "picture": "https://i.ibb.co/Srb569v/african-american-man-listening-music-headphones-23-2149072225.webp",
-        "age": 4.1,
+        "rating": 4.1,
         "name": "Vasquez Bowman",
-        "review": "Very powerful machine, I love what dell has done making it so easy to add more storage."
+        "review": "Very powerful machine, I love what dell has done making it so easy to add more storrating."
     },
     {
         "_id": "6249f8d61644119ee626ca9e",
         "picture": "https://i.ibb.co/GWKvQKf/confident-young-man-standing-with-hands-waist-smiling-looking-determined-ready-work-waiting-task-pos.webp",
-        "age": 4.6,
+        "rating": 4.6,
         "name": "Rosa Cortez",
         "review": "I have probably bought 20 or more Dell computers and so far this may be the best one ever."
     },
     {
         "_id": "6249f8d63393a2fefba51875",
         "picture": "https://i.ibb.co/3FN9gjv/handsome-confident-smiling-man-with-hands-crossed-chest-176420-18743.webp",
-        "age": 5.0,
+        "rating": 5.0,
         "name": "Levy Cooley",
         "review": "just a few days in and the system is running smoothly"
     },
     {
         "_id": "6249f8d676e1cb973942aeda",
         "picture": "https://i.ibb.co/0Gjk0N3/portrait-confused-african-american-guy-furrow-eyebrows-looking-disappointed-credit-card-holding-mobi.webp",
-        "age": 4.9,
+        "rating": 4.9,
         "name": "Warren Vega",
         "review": "The XPS 8940 is super fast and extremely quit. I really like this computer a lot."
     }
