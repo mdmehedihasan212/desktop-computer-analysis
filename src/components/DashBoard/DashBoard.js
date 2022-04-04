@@ -42,7 +42,7 @@ const data = [
 
 const DashBoard = () => {
     return (
-        <section className='grid grid-cols-2 gap-12 mt-12 px-12'>
+        <section className='grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 px-12'>
             <div>
                 <h1 className='text-2xl font-light mb-3 mx-16'>Investment vs Revenue (Area Chart)</h1>
                 <AreaChart width={625} height={250} data={data}

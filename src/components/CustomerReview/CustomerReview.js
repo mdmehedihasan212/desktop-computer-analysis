@@ -2,6 +2,7 @@ import React from 'react';
 import './CustomerReview.css';
 
 const CustomerReview = ({ review }) => {
+    // console.log(review);
     const { name, picture, comment, rating } = review;
     return (
         <section className='border-2 rounded p-6 mt-10 max-h-48'>
