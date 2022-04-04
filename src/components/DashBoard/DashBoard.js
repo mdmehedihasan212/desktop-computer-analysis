@@ -44,7 +44,7 @@ const DashBoard = () => {
     return (
         <section className='grid grid-cols-2 gap-12 mt-12 px-12'>
             <div>
-                <h1 className='text-2xl font-normal mb-3 mx-16'>Investment vs Revenue (Area Chart)</h1>
+                <h1 className='text-2xl font-light mb-3 mx-16'>Investment vs Revenue (Area Chart)</h1>
                 <AreaChart width={625} height={250} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
@@ -68,7 +68,7 @@ const DashBoard = () => {
                 </AreaChart>
             </div>
             <div>
-                <h1 className='text-2xl font-normal mb-3 mx-16'>Investment vs Revenue (Bar Chart)</h1>
+                <h1 className='text-2xl font-light mb-3 mx-16'>Investment vs Revenue (Bar Chart)</h1>
                 <BarChart width={600} height={250} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
@@ -81,7 +81,7 @@ const DashBoard = () => {
                 </BarChart>
             </div>
             <div>
-                <h1 className='text-2xl font-normal mb-3 mx-16'>Investment vs Revenue (Composed Chart)</h1>
+                <h1 className='text-2xl font-light mb-3 mx-16'>Investment vs Revenue (Composed Chart)</h1>
                 <ComposedChart width={600} height={250} data={data}>
                     <XAxis dataKey="month" />
                     <YAxis />
@@ -94,7 +94,7 @@ const DashBoard = () => {
                 </ComposedChart>
             </div>
             <div>
-                <h1 className='text-2xl font-normal mb-3 mx-16'>Investment vs Revenue (Line Chart)</h1>
+                <h1 className='text-2xl font-light mb-3 mx-16'>Investment vs Revenue (Line Chart)</h1>
                 <LineChart width={630} height={250} data={data}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './NotFound.css';
 import Error from '../../Assets/error-404-concept-website-template-flat-design_249405-205 (1).jpg';
 
 const NotFound = () => {

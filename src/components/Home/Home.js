@@ -24,7 +24,7 @@ const Home = () => {
             </div>
             <div className="review-container">
                 <div className="">
-                    <h1 className='text-5xl text-center font-bold mt-24'>Customer Review (6)</h1>
+                    <h1 className='text-5xl text-center font-bold mt-24'>Customer Reviews (6)</h1>
                     <div className="p-10 grid sm:grid-cols- gap-6 md:grid-cols-3 gap-6">
                         {
                             reviews.map(review => <CustomerReview
