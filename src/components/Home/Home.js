@@ -6,7 +6,7 @@ import useReview from '../../hooks/useReview';
 import CustomerReview from '../CustomerReview/CustomerReview';
 
 const Home = () => {
-    const [reviews, setReviews] = useReview([]);
+    const [reviews, setReviews] = useReview();
     return (
         <section>
             <div className="product-container">
